@@ -1,0 +1,13 @@
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\bin\Debug\netcoreapp2.1\fizzbuzz.deps.json
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\bin\Debug\netcoreapp2.1\fizzbuzz.runtimeconfig.json
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\bin\Debug\netcoreapp2.1\fizzbuzz.runtimeconfig.dev.json
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\bin\Debug\netcoreapp2.1\fizzbuzz.dll
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\bin\Debug\netcoreapp2.1\fizzbuzz.pdb
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.csproj.CoreCompileInputs.cache
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.RazorAssemblyInfo.cache
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.RazorAssemblyInfo.cs
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.AssemblyInfoInputs.cache
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.AssemblyInfo.cs
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.RazorTargetAssemblyInfo.cache
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.dll
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.pdb
