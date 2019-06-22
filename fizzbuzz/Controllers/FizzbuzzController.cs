@@ -19,8 +19,8 @@ namespace fizzbuzz.Controllers
 
         // GET: api/Fizzbuzz
         [HttpGet]
-        public IEnumerable<string> Get() {
-            return new string[] { "value1", "value2" };
+        public string Get() {
+            return System.AppDomain.CurrentDomain.BaseDirectory;
         }
 
         // GET: api/Fizzbuzz/5

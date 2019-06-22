@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 using Microsoft.Extensions.Configuration;
 
 public class FizzBuzzModel {
@@ -6,9 +8,18 @@ public class FizzBuzzModel {
     private string[] fizzBuzzList;
     private int max;
 
+    private string path;
+
     public FizzBuzzModel(IConfiguration config) {
         max = config.GetValue<int>("EndNumber");
         createList();
+
+        path = System.AppDomain.CurrentDomain.BaseDirectory + "fizzbuzz.txt";
+
+        if (!File.Exists(path)) {
+            var file = File.Create(path);
+            file.Close();
+        }
 	}
 
     private void createList() {
@@ -32,6 +43,15 @@ public class FizzBuzzModel {
     public string[] getList(int start) {
         string[] list = new string[max - start + 1];
         Array.Copy(fizzBuzzList, start, list, 0, max - start + 1);
+
+        using (StreamWriter sw = File.AppendText(path)) {
+            sw.WriteLine(DateTime.Now.ToString());
+            foreach (string s in list) {
+                sw.WriteLine(s);
+            }
+            sw.Close();
+        }
+
         return list;
     }
 }
