@@ -10,12 +10,18 @@ using Microsoft.Extensions.Logging;
 
 namespace fizzbuzz {
     public class Program {
+
+        private string[] fizzBuzzList;
+        private int max;
+
         public static void Main(string[] args) {
             CreateWebHostBuilder(args).Build().Run();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) => 
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+
+        
     }
 }
