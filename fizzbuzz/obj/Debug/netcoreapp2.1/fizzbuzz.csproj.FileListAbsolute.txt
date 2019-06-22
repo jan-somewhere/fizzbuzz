@@ -11,3 +11,4 @@ C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.
 C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.RazorTargetAssemblyInfo.cache
 C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.dll
 C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.pdb
+C:\Users\akitha\source\repos\fizzbuzz\fizzbuzz\obj\Debug\netcoreapp2.1\fizzbuzz.csprojAssemblyReference.cache
