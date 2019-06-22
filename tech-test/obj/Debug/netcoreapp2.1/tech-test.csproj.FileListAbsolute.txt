@@ -1,0 +1,14 @@
+C:\Users\akitha\Documents\Concatel\tech-test\bin\Debug\netcoreapp2.1\tech-test.deps.json
+C:\Users\akitha\Documents\Concatel\tech-test\bin\Debug\netcoreapp2.1\tech-test.runtimeconfig.json
+C:\Users\akitha\Documents\Concatel\tech-test\bin\Debug\netcoreapp2.1\tech-test.runtimeconfig.dev.json
+C:\Users\akitha\Documents\Concatel\tech-test\bin\Debug\netcoreapp2.1\tech-test.dll
+C:\Users\akitha\Documents\Concatel\tech-test\bin\Debug\netcoreapp2.1\tech-test.pdb
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.csprojAssemblyReference.cache
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.csproj.CoreCompileInputs.cache
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.RazorAssemblyInfo.cache
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.RazorAssemblyInfo.cs
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.AssemblyInfoInputs.cache
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.AssemblyInfo.cs
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.RazorTargetAssemblyInfo.cache
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.dll
+C:\Users\akitha\Documents\Concatel\tech-test\obj\Debug\netcoreapp2.1\tech-test.pdb
