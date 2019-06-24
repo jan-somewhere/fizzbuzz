@@ -20,7 +20,8 @@ namespace fizzbuzz.Controllers
         // GET: api/Fizzbuzz
         [HttpGet]
         public string Get() {
-            return System.AppDomain.CurrentDomain.BaseDirectory;
+            FizzbuzzTesting.IntegrationTest();
+            return "Integration test ran";
         }
 
         // GET: api/Fizzbuzz/5

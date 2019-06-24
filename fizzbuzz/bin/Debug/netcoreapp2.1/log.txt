@@ -29,3 +29,28 @@
 24/06/2019 11:33:38 Info: Get FizzBuzz list: 51
 24/06/2019 11:33:38 Debug: fizzbuzzmodel: retrieving list from 51
 24/06/2019 11:33:38 Error: fizzbuzzmodel: start index cannot be bigger than max value
+24/06/2019 11:50:14 Info: Added FizzBuzzModel to service
+24/06/2019 11:50:17 Info: Get FizzBuzz list: 51
+24/06/2019 11:50:17 Error: fizzbuzzmodel: start index cannot be bigger than max value
+24/06/2019 11:50:37 Info: Get FizzBuzz list: 20
+24/06/2019 12:12:02 Info: Added FizzBuzzModel to service
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: generating list, max: 50
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: list generated
+24/06/2019 12:12:09 Info: Testing: Beggining integration test
+24/06/2019 12:12:09 Debug: Testing: TestFromOne()
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: generating list, max: 50
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: list generated
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: retrieving list from 1
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: retrieved list
+24/06/2019 12:12:09 Debug: Testing: TestFromOne() successful
+24/06/2019 12:12:09 Debug: Testing: TestFromNegative()
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: generating list, max: 50
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: list generated
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: retrieving list from -1
+24/06/2019 12:12:09 Error: Testing: TestFromNegative() successful: fizzbuzzmodel: start index must be positive
+24/06/2019 12:12:09 Debug: Testing: TestFromOver()
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: generating list, max: 50
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: list generated
+24/06/2019 12:12:09 Debug: fizzbuzzmodel: retrieving list from 51
+24/06/2019 12:12:09 Error: Testing: TestFromOver() successful: fizzbuzzmodel: start index cannot be bigger than max value
+24/06/2019 12:12:09 Info: Testing: Integration test finished

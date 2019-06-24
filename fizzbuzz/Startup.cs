@@ -18,6 +18,7 @@ namespace fizzbuzz {
         public Startup(IConfiguration configuration, ILogger<Startup> logger) {
             Configuration = configuration;
             CustomLogger.Init(logger, configuration.GetValue<int>("Logging:Debug"));
+            FizzbuzzTesting.Init(configuration);
         }
 
         public IConfiguration Configuration { get; }
