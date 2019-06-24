@@ -19,6 +19,7 @@ public class FizzbuzzTesting {
         TestFromOne();
         TestFromNegative();
         TestFromOver();
+        TestAsync();
         CustomLogger.LogInformation("Testing: Integration test finished, see log for results");
     }
 
@@ -55,6 +56,26 @@ public class FizzbuzzTesting {
             CustomLogger.LogDebug("Testing: TestFromOver() unsuccessful, no exceptions found");
         } catch (CustomException e) {
             CustomLogger.LogError("Testing: TestFromOver() successful: " + e.Message);
+        }
+    }
+    public static void TestAsync() {
+        CustomLogger.LogDebug("Testing: TestAsync()");
+        FizzBuzzModel fbm = new FizzBuzzModel(_config);
+
+        Task[] tasks = new Task[max - 1];
+
+        try {
+            for (int i = 1; i < max; i++) {
+                tasks[i-1] = Task.Run(() => fbm.getList(i));
+            }
+
+            foreach (Task t in tasks) {
+                t.Wait();
+            }
+
+            CustomLogger.LogDebug("Testing: TestAsync successful");
+        } catch (Exception e) {
+            CustomLogger.LogError("Testing: TestAsync() unsuccessful: " + e.Message);
         }
     }
 }

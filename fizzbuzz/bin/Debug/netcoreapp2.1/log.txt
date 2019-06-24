@@ -54,3 +54,555 @@
 24/06/2019 12:12:09 Debug: fizzbuzzmodel: retrieving list from 51
 24/06/2019 12:12:09 Error: Testing: TestFromOver() successful: fizzbuzzmodel: start index cannot be bigger than max value
 24/06/2019 12:12:09 Info: Testing: Integration test finished
+24/06/2019 17:42:06 Info: Added FizzBuzzModel to services
+24/06/2019 17:42:14 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 17:42:14 Info: fizzbuzzmodel: list generated
+24/06/2019 17:42:14 Info: Get FizzBuzz list: 3
+24/06/2019 17:42:14 Info: fizzbuzzmodel: retrieving list from 3
+24/06/2019 17:42:14 Info: fizzbuzzmodel: writing list to file
+24/06/2019 17:42:14 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 17:42:14 Info: fizzbuzzmodel: retrieved list
+24/06/2019 17:54:26 Info: Added FizzBuzzModel to services
+24/06/2019 17:54:32 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 17:54:32 Info: fizzbuzzmodel: list generated
+24/06/2019 17:54:32 Info: Get FizzBuzz list: 3
+24/06/2019 17:54:32 Info: fizzbuzzmodel: retrieving list from 3
+24/06/2019 17:54:32 Info: fizzbuzzmodel: retrieved list
+24/06/2019 17:54:32 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 17:54:32 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 17:56:11 Info: Added FizzBuzzModel to services
+24/06/2019 17:56:16 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 17:56:16 Info: fizzbuzzmodel: list generated
+24/06/2019 17:56:16 Info: Get FizzBuzz list: 3
+24/06/2019 17:56:16 Info: fizzbuzzmodel: retrieving list from 3
+24/06/2019 17:56:16 Info: fizzbuzzmodel: retrieved list
+24/06/2019 17:56:16 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 17:56:16 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 17:56:16 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 17:56:16 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:42 Info: Added FizzBuzzModel to services
+24/06/2019 18:02:54 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: list generated
+24/06/2019 18:02:54 Info: Testing: Beggining integration test
+24/06/2019 18:02:54 Debug: Testing: TestFromOne()
+24/06/2019 18:02:54 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: list generated
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 1
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Debug: Testing: TestFromOne() successful
+24/06/2019 18:02:54 Debug: Testing: TestFromNegative()
+24/06/2019 18:02:54 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: list generated
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from -1
+24/06/2019 18:02:54 Error: Testing: TestFromNegative() successful: fizzbuzzmodel: start index must be positive
+24/06/2019 18:02:54 Debug: Testing: TestFromOver()
+24/06/2019 18:02:54 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: list generated
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 51
+24/06/2019 18:02:54 Error: Testing: TestFromOver() successful: fizzbuzzmodel: start index cannot be bigger than max value
+24/06/2019 18:02:54 Debug: Testing: TestAsync()
+24/06/2019 18:02:54 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: list generated
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:02:54 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:02:54 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:42 Info: Added FizzBuzzModel to services
+24/06/2019 18:05:51 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: list generated
+24/06/2019 18:05:51 Info: Testing: Beggining integration test
+24/06/2019 18:05:51 Debug: Testing: TestFromOne()
+24/06/2019 18:05:51 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: list generated
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 1
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Debug: Testing: TestFromOne() successful
+24/06/2019 18:05:51 Debug: Testing: TestFromNegative()
+24/06/2019 18:05:51 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: list generated
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from -1
+24/06/2019 18:05:51 Error: Testing: TestFromNegative() successful: fizzbuzzmodel: start index must be positive
+24/06/2019 18:05:51 Debug: Testing: TestFromOver()
+24/06/2019 18:05:51 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: list generated
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 51
+24/06/2019 18:05:51 Error: Testing: TestFromOver() successful: fizzbuzzmodel: start index cannot be bigger than max value
+24/06/2019 18:05:51 Debug: Testing: TestAsync()
+24/06/2019 18:05:51 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: list generated
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:05:51 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:05:51 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:05:51 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:45 Info: Added FizzBuzzModel to services
+24/06/2019 18:07:48 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: list generated
+24/06/2019 18:07:48 Info: Testing: Beggining integration test
+24/06/2019 18:07:48 Debug: Testing: TestFromOne()
+24/06/2019 18:07:48 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: list generated
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 1
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Debug: Testing: TestFromOne() successful
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Debug: Testing: TestFromNegative()
+24/06/2019 18:07:48 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: list generated
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from -1
+24/06/2019 18:07:48 Error: Testing: TestFromNegative() successful: fizzbuzzmodel: start index must be positive
+24/06/2019 18:07:48 Debug: Testing: TestFromOver()
+24/06/2019 18:07:48 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: list generated
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 51
+24/06/2019 18:07:48 Error: Testing: TestFromOver() successful: fizzbuzzmodel: start index cannot be bigger than max value
+24/06/2019 18:07:48 Debug: Testing: TestAsync()
+24/06/2019 18:07:48 Info: fizzbuzzmodel: generating list, max: 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: list generated
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieving list from 50
+24/06/2019 18:07:48 Info: fizzbuzzmodel: retrieved list
+24/06/2019 18:07:48 Debug: Testing: TestAsync successful
+24/06/2019 18:07:48 Info: Testing: Integration test finished, see log for results
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file
+24/06/2019 18:07:48 Info: fizzbuzzmodel: writing list to file (async)
+24/06/2019 18:07:48 Info: fizzbuzzmodel: finished writing list to file

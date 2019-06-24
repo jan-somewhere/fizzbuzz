@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
 public class CustomLogger : Exception {
@@ -8,6 +9,8 @@ public class CustomLogger : Exception {
     private static string path = null;
 
     private static bool _debug = false;
+
+    private static readonly object lk = new object();
 
     public static void Init(ILogger logger, int debug) {
         _logger = logger;
@@ -25,6 +28,7 @@ public class CustomLogger : Exception {
         _logger.LogInformation(message);
         WriteToLog("Info: " + message);
     }
+
     public static void LogWarning(string message) {
         _logger.LogWarning(message);
         WriteToLog("Warning: " + message);
@@ -34,6 +38,7 @@ public class CustomLogger : Exception {
         _logger.LogError(message);
         WriteToLog("Error: " + message);
     }
+
     public static void LogDebug(string message) {
         if (_debug) {
             _logger.LogError(message);
@@ -42,8 +47,10 @@ public class CustomLogger : Exception {
     }
 
     private static void WriteToLog(string message) {
-        using (StreamWriter sw = File.AppendText(path)) {
-            sw.WriteLine(DateTime.Now.ToString() + " " + message);
+        lock (lk) {
+            using (StreamWriter sw = File.AppendText(path)) {
+                sw.WriteLine(DateTime.Now.ToString() + " " + message);
+            }
         }
     }
 

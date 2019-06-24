@@ -28,7 +28,7 @@ namespace fizzbuzz {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddTransient<FizzBuzzModel>();
 
-            CustomLogger.LogInformation("Added FizzBuzzModel to service");
+            CustomLogger.LogInformation("Added FizzBuzzModel to services");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

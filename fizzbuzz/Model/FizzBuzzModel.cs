@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Text;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
 public class FizzBuzzModel {
@@ -9,6 +10,8 @@ public class FizzBuzzModel {
     private int max;
 
     private string path;
+
+    private readonly object lk = new object();
 
     public FizzBuzzModel(IConfiguration config) {
         max = config.GetValue<int>("EndNumber");
@@ -61,17 +64,26 @@ public class FizzBuzzModel {
 
         string[] list = new string[max - start + 1];
         Array.Copy(fizzBuzzList, start, list, 0, max - start + 1);
+        Task.Run(() => writeListToFile(list));
 
-        using (StreamWriter sw = File.AppendText(path)) {
-            sw.WriteLine(DateTime.Now.ToString());
-            foreach (string s in list) {
-                sw.WriteLine(s);
-            }
-            sw.Close();
-        }
-        
         CustomLogger.LogInformation("fizzbuzzmodel: retrieved list");
 
         return list;
+    }
+
+    public void writeListToFile(string[] list) {
+        CustomLogger.LogInformation("fizzbuzzmodel: writing list to file (async)");
+
+        lock (lk) {
+            using (StreamWriter sw = File.AppendText(path)) {
+                sw.WriteLineAsync(DateTime.Now.ToString());
+                foreach (string s in list) {
+                    sw.WriteLineAsync(s);
+                }
+                sw.Close();
+            }
+        }
+
+        CustomLogger.LogInformation("fizzbuzzmodel: finished writing list to file");
     }
 }
