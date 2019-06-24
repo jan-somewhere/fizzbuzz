@@ -17,10 +17,9 @@ namespace fizzbuzz {
 
         public Startup(IConfiguration configuration, ILogger<Startup> logger) {
             Configuration = configuration;
-            CustomLogger.Init(logger);
+            CustomLogger.Init(logger, configuration.GetValue<int>("Logging:Debug"));
         }
 
-        // de
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.

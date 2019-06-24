@@ -29,6 +29,8 @@ public class FizzBuzzModel {
             max = 20;
         }
 
+        CustomLogger.LogDebug("fizzbuzzmodel: generating list, max: " + max);
+
         string[] list = new string[max + 1];
 
         for (int i = 1; i <= max; i++) {
@@ -44,12 +46,15 @@ public class FizzBuzzModel {
         }
 
         fizzBuzzList = list;
+
+        CustomLogger.LogDebug("fizzbuzzmodel: list generated");
     }
 
     public string[] getList(int start) {
+        CustomLogger.LogDebug("fizzbuzzmodel: retrieving list from " + start);
 
         if (start > max) {
-            throw new CustomException("start index cannot be bigger than max value");
+            throw new CustomException("fizzbuzzmodel: start index cannot be bigger than max value");
         }
 
         string[] list = new string[max - start + 1];
@@ -61,7 +66,9 @@ public class FizzBuzzModel {
                 sw.WriteLine(s);
             }
             sw.Close();
-        }   
+        }
+        
+        CustomLogger.LogDebug("fizzbuzzmodel: retrieved list");
 
         return list;
     }

@@ -13,3 +13,19 @@
 24/06/2019 11:19:46 Info: Get FizzBuzz list: 3
 24/06/2019 11:19:56 Warning: fizzbuzzmodel: max value must be strictly positive, changing value to 20
 24/06/2019 11:19:56 Info: Get FizzBuzz list: 3
+24/06/2019 11:33:01 Info: Added FizzBuzzModel to service
+24/06/2019 11:33:06 Debug: fizzbuzzmodel: generating list, max: 50
+24/06/2019 11:33:06 Debug: fizzbuzzmodel: list generated
+24/06/2019 11:33:06 Info: Get FizzBuzz list: 3
+24/06/2019 11:33:06 Debug: fizzbuzzmodel: retrieving list from 3
+24/06/2019 11:33:06 Debug: fizzbuzzmodel: retrieved list
+24/06/2019 11:33:21 Debug: fizzbuzzmodel: generating list, max: 50
+24/06/2019 11:33:21 Debug: fizzbuzzmodel: list generated
+24/06/2019 11:33:21 Info: Get FizzBuzz list: 3
+24/06/2019 11:33:21 Debug: fizzbuzzmodel: retrieving list from 3
+24/06/2019 11:33:21 Debug: fizzbuzzmodel: retrieved list
+24/06/2019 11:33:38 Debug: fizzbuzzmodel: generating list, max: 50
+24/06/2019 11:33:38 Debug: fizzbuzzmodel: list generated
+24/06/2019 11:33:38 Info: Get FizzBuzz list: 51
+24/06/2019 11:33:38 Debug: fizzbuzzmodel: retrieving list from 51
+24/06/2019 11:33:38 Error: fizzbuzzmodel: start index cannot be bigger than max value

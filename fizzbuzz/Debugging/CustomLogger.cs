@@ -7,7 +7,9 @@ public class CustomLogger : Exception {
     private static ILogger _logger = null;
     private static string path = null;
 
-    public static void Init(ILogger logger) {
+    private static bool _debug = false;
+
+    public static void Init(ILogger logger, int debug) {
         _logger = logger;
         path = System.AppDomain.CurrentDomain.BaseDirectory + "log.txt";
 
@@ -15,6 +17,8 @@ public class CustomLogger : Exception {
             var file = File.Create(path);
             file.Close();
         }
+
+        _debug = (debug == 1);
     }
 
     public static void LogInformation(string message) {
@@ -31,8 +35,10 @@ public class CustomLogger : Exception {
         WriteToLog("Error: " + message);
     }
     public static void LogDebug(string message) {
-        _logger.LogError(message);
-        WriteToLog("Debug: " + message);
+        if (_debug) {
+            _logger.LogError(message);
+            WriteToLog("Debug: " + message);
+        }
     }
 
     private static void WriteToLog(string message) {
