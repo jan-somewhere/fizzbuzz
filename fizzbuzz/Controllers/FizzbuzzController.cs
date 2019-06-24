@@ -26,7 +26,18 @@ namespace fizzbuzz.Controllers
         // GET: api/Fizzbuzz/5
         [HttpGet("{start}", Name = "Get")]
         public string[] Get(int start) {
-            return fbm.getList(start);
+            CustomLogger.LogInformation("Get FizzBuzz list: " + start);
+
+            string[] list;
+
+            try {
+                list = fbm.getList(start);
+            } catch (CustomException e) {
+                CustomLogger.LogError(e.Message);
+                list = new string[] {"error, see log for details: " + CustomLogger.GetLogPath()};
+            }
+
+            return list;
         }
     }
 }

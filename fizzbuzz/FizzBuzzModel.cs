@@ -23,6 +23,12 @@ public class FizzBuzzModel {
 	}
 
     private void createList() {
+
+        if (max <= 0) {
+            CustomLogger.LogWarning("fizzbuzzmodel: max value must be strictly positive, changing value to 20");
+            max = 20;
+        }
+
         string[] list = new string[max + 1];
 
         for (int i = 1; i <= max; i++) {
@@ -41,6 +47,11 @@ public class FizzBuzzModel {
     }
 
     public string[] getList(int start) {
+
+        if (start > max) {
+            throw new CustomException("start index cannot be bigger than max value");
+        }
+
         string[] list = new string[max - start + 1];
         Array.Copy(fizzBuzzList, start, list, 0, max - start + 1);
 
@@ -50,7 +61,7 @@ public class FizzBuzzModel {
                 sw.WriteLine(s);
             }
             sw.Close();
-        }
+        }   
 
         return list;
     }

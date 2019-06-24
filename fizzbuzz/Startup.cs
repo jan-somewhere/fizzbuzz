@@ -12,9 +12,12 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 namespace fizzbuzz {
+
     public class Startup {
-        public Startup(IConfiguration configuration) {
+
+        public Startup(IConfiguration configuration, ILogger<Startup> logger) {
             Configuration = configuration;
+            CustomLogger.Init(logger);
         }
 
         // de
@@ -24,6 +27,8 @@ namespace fizzbuzz {
         public void ConfigureServices(IServiceCollection services) {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddTransient<FizzBuzzModel>();
+
+            CustomLogger.LogInformation("Added FizzBuzzModel to service");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

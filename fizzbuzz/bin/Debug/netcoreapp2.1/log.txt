@@ -1,0 +1,15 @@
+24/06/2019 11:12:45 Info: Added FizzBuzzModel to service
+24/06/2019 11:13:14 Info: Get FizzBuzz list: 8
+24/06/2019 11:13:30 Info: Get FizzBuzz list: 80
+24/06/2019 11:13:30 Error: Error: start index cannot be bigger than max value
+24/06/2019 11:17:16 Info: Added FizzBuzzModel to service
+24/06/2019 11:18:08 Warning: fizzbuzzmodel: max value must be strictly positive, changing value to 20
+24/06/2019 11:18:08 Info: Get FizzBuzz list: 80
+24/06/2019 11:18:08 Error: start index cannot be bigger than max value
+24/06/2019 11:18:37 Warning: fizzbuzzmodel: max value must be strictly positive, changing value to 20
+24/06/2019 11:18:37 Info: Get FizzBuzz list: 3
+24/06/2019 11:19:37 Info: Added FizzBuzzModel to service
+24/06/2019 11:19:46 Warning: fizzbuzzmodel: max value must be strictly positive, changing value to 20
+24/06/2019 11:19:46 Info: Get FizzBuzz list: 3
+24/06/2019 11:19:56 Warning: fizzbuzzmodel: max value must be strictly positive, changing value to 20
+24/06/2019 11:19:56 Info: Get FizzBuzz list: 3
